@@ -7,27 +7,85 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75151129227BEB4A008FA642 /* invStar.sks in Resources */ = {isa = PBXBuildFile; fileRef = 75151128227BEB4A008FA642 /* invStar.sks */; };
+		7515112C227BEF54008FA642 /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7515112A227BEF54008FA642 /* GameOver.sks */; };
+		7515112D227BEF54008FA642 /* Win.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7515112B227BEF54008FA642 /* Win.sks */; };
+		75151132227CB808008FA642 /* bonePop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 75151131227CB808008FA642 /* bonePop.m4a */; };
+		75151134227D43A7008FA642 /* catMeow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 75151133227D43A7008FA642 /* catMeow.mp3 */; };
+		7560EDB6227392040082BEE5 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDAB227392030082BEE5 /* bell.mp3 */; };
+		7560EDB7227392040082BEE5 /* dogWhine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDAC227392030082BEE5 /* dogWhine.mp3 */; };
+		7560EDB8227392040082BEE5 /* dogBark.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDAD227392030082BEE5 /* dogBark.mp3 */; };
+		7560EDB9227392040082BEE5 /* FPDOSoundtrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDAE227392030082BEE5 /* FPDOSoundtrack.mp3 */; };
+		7560EDBB227392040082BEE5 /* crowd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDB0227392030082BEE5 /* crowd.mp3 */; };
+		7560EDBC227392040082BEE5 /* policeSiren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDB1227392030082BEE5 /* policeSiren.mp3 */; };
+		7560EDBD227392040082BEE5 /* titleScreenTrack.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDB2227392040082BEE5 /* titleScreenTrack.mp3 */; };
+		7560EDBE227392040082BEE5 /* gameOverSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDB3227392040082BEE5 /* gameOverSong.mp3 */; };
+		7560EDBF227392040082BEE5 /* pawlerCall.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDB4227392040082BEE5 /* pawlerCall.m4a */; };
+		7560EDC0227392040082BEE5 /* winSong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDB5227392040082BEE5 /* winSong.mp3 */; };
+		7560EDC22273A1760082BEE5 /* running.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDC12273A1760082BEE5 /* running.mp3 */; };
+		7560EDC72274ED500082BEE5 /* ShowcardGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDC42274EA710082BEE5 /* ShowcardGothic.ttf */; };
+		7560EDC92274FDF10082BEE5 /* invincibility.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7560EDC82274FDF10082BEE5 /* invincibility.mp3 */; };
 		758BFAA1226FEC3200D3D286 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BFAA0226FEC3200D3D286 /* AppDelegate.swift */; };
-		758BFAA3226FEC3200D3D286 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 758BFAA2226FEC3200D3D286 /* GameScene.sks */; };
-		758BFAA5226FEC3200D3D286 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 758BFAA4226FEC3200D3D286 /* Actions.sks */; };
-		758BFAA7226FEC3200D3D286 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BFAA6226FEC3200D3D286 /* GameScene.swift */; };
 		758BFAA9226FEC3200D3D286 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BFAA8226FEC3200D3D286 /* GameViewController.swift */; };
 		758BFAAC226FEC3200D3D286 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758BFAAA226FEC3200D3D286 /* Main.storyboard */; };
 		758BFAAE226FEC3A00D3D286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 758BFAAD226FEC3A00D3D286 /* Assets.xcassets */; };
 		758BFAB1226FEC3A00D3D286 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 758BFAAF226FEC3A00D3D286 /* LaunchScreen.storyboard */; };
+		758BFAB9226FEF8B00D3D286 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BFAB8226FEF8B00D3D286 /* MainMenuScene.swift */; };
+		758BFABB226FF96100D3D286 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 758BFABA226FF96100D3D286 /* GameScene.swift */; };
+		758BFAC22270E85A00D3D286 /* Game.sks in Resources */ = {isa = PBXBuildFile; fileRef = 758BFAC12270E85A00D3D286 /* Game.sks */; };
+		7595C50F22710F6C003E74B1 /* ComicScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595C50E22710F6C003E74B1 /* ComicScene.swift */; };
+		7595C51222711086003E74B1 /* TutorialScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7595C51122711086003E74B1 /* TutorialScene.swift */; };
+		75D708E62279EBF500BB4483 /* WinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D708E42279EBF400BB4483 /* WinScene.swift */; };
+		75D708E72279EBF500BB4483 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D708E52279EBF400BB4483 /* GameOverScene.swift */; };
+		75EF7C3D227FC26A0023B8A1 /* EasingDeclarations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF7C3A227FC26A0023B8A1 /* EasingDeclarations.swift */; };
+		75EF7C3E227FC26A0023B8A1 /* SKEase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF7C3B227FC26A0023B8A1 /* SKEase.swift */; };
+		75EF7C3F227FC26A0023B8A1 /* easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EF7C3C227FC26A0023B8A1 /* easing.swift */; };
+		CA302CA62270C30000CE628A /* IntUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA302CA52270C30000CE628A /* IntUtils.swift */; };
+		CA302CA82270C30F00CE628A /* MyUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA302CA72270C30F00CE628A /* MyUtils.swift */; };
+		CA302CCE2270C90600CE628A /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA302CCD2270C90600CE628A /* MainMenu.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75151128227BEB4A008FA642 /* invStar.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = invStar.sks; sourceTree = "<group>"; };
+		7515112A227BEF54008FA642 /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		7515112B227BEF54008FA642 /* Win.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Win.sks; sourceTree = "<group>"; };
+		75151131227CB808008FA642 /* bonePop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = bonePop.m4a; path = "../../../../Assets/FPDO Assets/SFX/bonePop.m4a"; sourceTree = "<group>"; };
+		75151133227D43A7008FA642 /* catMeow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = catMeow.mp3; path = "../../../../Assets/FPDO Assets/SFX/catMeow.mp3"; sourceTree = "<group>"; };
+		7560EDAB227392030082BEE5 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = bell.mp3; path = "../../../../Assets/FPDO Assets/SFX/bell.mp3"; sourceTree = "<group>"; };
+		7560EDAC227392030082BEE5 /* dogWhine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dogWhine.mp3; path = "../../../../Assets/FPDO Assets/SFX/dogWhine.mp3"; sourceTree = "<group>"; };
+		7560EDAD227392030082BEE5 /* dogBark.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = dogBark.mp3; path = "../../../../Assets/FPDO Assets/SFX/dogBark.mp3"; sourceTree = "<group>"; };
+		7560EDAE227392030082BEE5 /* FPDOSoundtrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = FPDOSoundtrack.mp3; path = "../../../../Assets/FPDO Assets/SFX/FPDOSoundtrack.mp3"; sourceTree = "<group>"; };
+		7560EDB0227392030082BEE5 /* crowd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crowd.mp3; path = "../../../../Assets/FPDO Assets/SFX/crowd.mp3"; sourceTree = "<group>"; };
+		7560EDB1227392030082BEE5 /* policeSiren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = policeSiren.mp3; path = "../../../../Assets/FPDO Assets/SFX/policeSiren.mp3"; sourceTree = "<group>"; };
+		7560EDB2227392040082BEE5 /* titleScreenTrack.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = titleScreenTrack.mp3; path = "../../../../Assets/FPDO Assets/SFX/titleScreenTrack.mp3"; sourceTree = "<group>"; };
+		7560EDB3227392040082BEE5 /* gameOverSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = gameOverSong.mp3; path = "../../../../Assets/FPDO Assets/SFX/gameOverSong.mp3"; sourceTree = "<group>"; };
+		7560EDB4227392040082BEE5 /* pawlerCall.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = pawlerCall.m4a; path = "../../../../Assets/FPDO Assets/SFX/pawlerCall.m4a"; sourceTree = "<group>"; };
+		7560EDB5227392040082BEE5 /* winSong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = winSong.mp3; path = "../../../../Assets/FPDO Assets/SFX/winSong.mp3"; sourceTree = "<group>"; };
+		7560EDC12273A1760082BEE5 /* running.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = running.mp3; path = "../../../../Assets/FPDO Assets/SFX/running.mp3"; sourceTree = "<group>"; };
+		7560EDC42274EA710082BEE5 /* ShowcardGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = ShowcardGothic.ttf; path = "../../../../Assets/FPDO Assets/Graphics/Fonts/ShowcardGothic.ttf"; sourceTree = "<group>"; };
+		7560EDC82274FDF10082BEE5 /* invincibility.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = invincibility.mp3; path = "../../../../Assets/FPDO Assets/SFX/invincibility.mp3"; sourceTree = "<group>"; };
 		758BFA9D226FEC3200D3D286 /* Ferris Pawler's Day Off.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ferris Pawler's Day Off.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		758BFAA0226FEC3200D3D286 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		758BFAA2226FEC3200D3D286 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		758BFAA4226FEC3200D3D286 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		758BFAA6226FEC3200D3D286 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		758BFAA8226FEC3200D3D286 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		758BFAAB226FEC3200D3D286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		758BFAAD226FEC3A00D3D286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		758BFAB0226FEC3A00D3D286 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		758BFAB2226FEC3A00D3D286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		758BFAB8226FEF8B00D3D286 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		758BFABA226FF96100D3D286 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		758BFAC12270E85A00D3D286 /* Game.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Game.sks; sourceTree = "<group>"; };
+		7595C50D22710ED6003E74B1 /* Comic.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Comic.sks; sourceTree = "<group>"; };
+		7595C50E22710F6C003E74B1 /* ComicScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicScene.swift; sourceTree = "<group>"; };
+		7595C51022711029003E74B1 /* Tutorial.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Tutorial.sks; sourceTree = "<group>"; };
+		7595C51122711086003E74B1 /* TutorialScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScene.swift; sourceTree = "<group>"; };
+		75D708E42279EBF400BB4483 /* WinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinScene.swift; sourceTree = "<group>"; };
+		75D708E52279EBF400BB4483 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		75EF7C3A227FC26A0023B8A1 /* EasingDeclarations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasingDeclarations.swift; sourceTree = "<group>"; };
+		75EF7C3B227FC26A0023B8A1 /* SKEase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKEase.swift; sourceTree = "<group>"; };
+		75EF7C3C227FC26A0023B8A1 /* easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = easing.swift; sourceTree = "<group>"; };
+		CA302CA52270C30000CE628A /* IntUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntUtils.swift; sourceTree = "<group>"; };
+		CA302CA72270C30F00CE628A /* MyUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUtils.swift; sourceTree = "<group>"; };
+		CA302CCD2270C90600CE628A /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7560EDAA227391C90082BEE5 /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				75151133227D43A7008FA642 /* catMeow.mp3 */,
+				75151131227CB808008FA642 /* bonePop.m4a */,
+				7560EDC82274FDF10082BEE5 /* invincibility.mp3 */,
+				7560EDAB227392030082BEE5 /* bell.mp3 */,
+				7560EDB0227392030082BEE5 /* crowd.mp3 */,
+				7560EDAD227392030082BEE5 /* dogBark.mp3 */,
+				7560EDAC227392030082BEE5 /* dogWhine.mp3 */,
+				7560EDAE227392030082BEE5 /* FPDOSoundtrack.mp3 */,
+				7560EDB3227392040082BEE5 /* gameOverSong.mp3 */,
+				7560EDB4227392040082BEE5 /* pawlerCall.m4a */,
+				7560EDB1227392030082BEE5 /* policeSiren.mp3 */,
+				7560EDC12273A1760082BEE5 /* running.mp3 */,
+				7560EDB2227392040082BEE5 /* titleScreenTrack.mp3 */,
+				7560EDB5227392040082BEE5 /* winSong.mp3 */,
+			);
+			path = SFX;
+			sourceTree = "<group>";
+		};
 		758BFA94226FEC3200D3D286 = {
 			isa = PBXGroup;
 			children = (
@@ -60,17 +139,114 @@
 		758BFA9F226FEC3200D3D286 /* Ferris Pawler's Day Off */ = {
 			isa = PBXGroup;
 			children = (
-				758BFAA0226FEC3200D3D286 /* AppDelegate.swift */,
-				758BFAA2226FEC3200D3D286 /* GameScene.sks */,
-				758BFAA4226FEC3200D3D286 /* Actions.sks */,
-				758BFAA6226FEC3200D3D286 /* GameScene.swift */,
-				758BFAA8226FEC3200D3D286 /* GameViewController.swift */,
-				758BFAAA226FEC3200D3D286 /* Main.storyboard */,
+				75EF7C40227FE0F80023B8A1 /* Swift */,
+				CA302CCF2270C90D00CE628A /* SKS */,
+				7560EDAA227391C90082BEE5 /* SFX */,
+				75EF7C43227FE1310023B8A1 /* Storyboards */,
+				758BFABC2270E66700D3D286 /* Fonts */,
+				758BFABD2270E67F00D3D286 /* Misc */,
 				758BFAAD226FEC3A00D3D286 /* Assets.xcassets */,
-				758BFAAF226FEC3A00D3D286 /* LaunchScreen.storyboard */,
-				758BFAB2226FEC3A00D3D286 /* Info.plist */,
 			);
 			path = "Ferris Pawler's Day Off";
+			sourceTree = "<group>";
+		};
+		758BFABC2270E66700D3D286 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7560EDC42274EA710082BEE5 /* ShowcardGothic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		758BFABD2270E67F00D3D286 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				758BFAB2226FEC3A00D3D286 /* Info.plist */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		75EF7C40227FE0F80023B8A1 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				75EF7C44227FE20C0023B8A1 /* Controllers */,
+				75EF7C42227FE11B0023B8A1 /* Scenes */,
+				75EF7C41227FE0FE0023B8A1 /* Utils */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		75EF7C41227FE0FE0023B8A1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CA302CA52270C30000CE628A /* IntUtils.swift */,
+				CA302CA72270C30F00CE628A /* MyUtils.swift */,
+				75EF7C3C227FC26A0023B8A1 /* easing.swift */,
+				75EF7C3A227FC26A0023B8A1 /* EasingDeclarations.swift */,
+				75EF7C3B227FC26A0023B8A1 /* SKEase.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		75EF7C42227FE11B0023B8A1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				758BFAB8226FEF8B00D3D286 /* MainMenuScene.swift */,
+				7595C50E22710F6C003E74B1 /* ComicScene.swift */,
+				7595C51122711086003E74B1 /* TutorialScene.swift */,
+				758BFABA226FF96100D3D286 /* GameScene.swift */,
+				75D708E52279EBF400BB4483 /* GameOverScene.swift */,
+				75D708E42279EBF400BB4483 /* WinScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		75EF7C43227FE1310023B8A1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				758BFAAA226FEC3200D3D286 /* Main.storyboard */,
+				758BFAAF226FEC3A00D3D286 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		75EF7C44227FE20C0023B8A1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				758BFAA0226FEC3200D3D286 /* AppDelegate.swift */,
+				758BFAA8226FEC3200D3D286 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		75EF7C45227FE3040023B8A1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CA302CCD2270C90600CE628A /* MainMenu.sks */,
+				7595C50D22710ED6003E74B1 /* Comic.sks */,
+				7595C51022711029003E74B1 /* Tutorial.sks */,
+				758BFAC12270E85A00D3D286 /* Game.sks */,
+				7515112A227BEF54008FA642 /* GameOver.sks */,
+				7515112B227BEF54008FA642 /* Win.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		75EF7C46227FE3140023B8A1 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				75151128227BEB4A008FA642 /* invStar.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		CA302CCF2270C90D00CE628A /* SKS */ = {
+			isa = PBXGroup;
+			children = (
+				75EF7C45227FE3040023B8A1 /* Scenes */,
+				75EF7C46227FE3140023B8A1 /* Particles */,
+			);
+			path = SKS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +308,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				758BFAAC226FEC3200D3D286 /* Main.storyboard in Resources */,
-				758BFAA3226FEC3200D3D286 /* GameScene.sks in Resources */,
+				75151134227D43A7008FA642 /* catMeow.mp3 in Resources */,
+				CA302CCE2270C90600CE628A /* MainMenu.sks in Resources */,
+				7560EDB6227392040082BEE5 /* bell.mp3 in Resources */,
+				7560EDBF227392040082BEE5 /* pawlerCall.m4a in Resources */,
+				7560EDC22273A1760082BEE5 /* running.mp3 in Resources */,
+				7560EDBE227392040082BEE5 /* gameOverSong.mp3 in Resources */,
+				7560EDBC227392040082BEE5 /* policeSiren.mp3 in Resources */,
+				758BFAC22270E85A00D3D286 /* Game.sks in Resources */,
+				7560EDBB227392040082BEE5 /* crowd.mp3 in Resources */,
+				7515112D227BEF54008FA642 /* Win.sks in Resources */,
 				758BFAAE226FEC3A00D3D286 /* Assets.xcassets in Resources */,
+				7560EDC92274FDF10082BEE5 /* invincibility.mp3 in Resources */,
+				75151132227CB808008FA642 /* bonePop.m4a in Resources */,
+				7560EDBD227392040082BEE5 /* titleScreenTrack.mp3 in Resources */,
 				758BFAB1226FEC3A00D3D286 /* LaunchScreen.storyboard in Resources */,
-				758BFAA5226FEC3200D3D286 /* Actions.sks in Resources */,
+				7560EDB7227392040082BEE5 /* dogWhine.mp3 in Resources */,
+				7515112C227BEF54008FA642 /* GameOver.sks in Resources */,
+				7560EDC72274ED500082BEE5 /* ShowcardGothic.ttf in Resources */,
+				7560EDC0227392040082BEE5 /* winSong.mp3 in Resources */,
+				75151129227BEB4A008FA642 /* invStar.sks in Resources */,
+				7560EDB8227392040082BEE5 /* dogBark.mp3 in Resources */,
+				7560EDB9227392040082BEE5 /* FPDOSoundtrack.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +340,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				758BFAA7226FEC3200D3D286 /* GameScene.swift in Sources */,
+				75D708E72279EBF500BB4483 /* GameOverScene.swift in Sources */,
+				7595C51222711086003E74B1 /* TutorialScene.swift in Sources */,
 				758BFAA9226FEC3200D3D286 /* GameViewController.swift in Sources */,
+				75EF7C3E227FC26A0023B8A1 /* SKEase.swift in Sources */,
+				CA302CA82270C30F00CE628A /* MyUtils.swift in Sources */,
+				75D708E62279EBF500BB4483 /* WinScene.swift in Sources */,
+				7595C50F22710F6C003E74B1 /* ComicScene.swift in Sources */,
+				758BFAB9226FEF8B00D3D286 /* MainMenuScene.swift in Sources */,
+				758BFABB226FF96100D3D286 /* GameScene.swift in Sources */,
+				75EF7C3F227FC26A0023B8A1 /* easing.swift in Sources */,
+				CA302CA62270C30000CE628A /* IntUtils.swift in Sources */,
+				75EF7C3D227FC26A0023B8A1 /* EasingDeclarations.swift in Sources */,
 				758BFAA1226FEC3200D3D286 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,12 +500,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8R37B4PUN5;
-				INFOPLIST_FILE = "Ferris Pawler's Day Off/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Ferris Pawler's Day Off/Misc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pigeonrubbish.fpdo.Ferris-Pawler-s-Day-Off";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pigeonrubbish.fpdo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -314,12 +518,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8R37B4PUN5;
-				INFOPLIST_FILE = "Ferris Pawler's Day Off/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Ferris Pawler's Day Off/Misc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.pigeonrubbish.fpdo.Ferris-Pawler-s-Day-Off";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pigeonrubbish.fpdo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
