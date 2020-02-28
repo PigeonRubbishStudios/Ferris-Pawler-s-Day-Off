@@ -191,7 +191,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate
     //Update Method
     override func update(_ currentTime: TimeInterval)
     {
-        //Some Update Finding Bullshit ¯\_(ツ)_/¯
+        //Some Update Finding Statements ¯\_(ツ)_/¯
         if lastUpdateTime > 0
         {
             dt = currentTime - lastUpdateTime
