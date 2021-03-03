@@ -42,7 +42,6 @@ class ComicScene: SKScene
     {
         let myScene = TutorialScene(size: size)
         myScene.scaleMode = scaleMode
-        //let reveal = SKTransition.fade(withDuration: 1.5)
         view?.presentScene(myScene)
     }
     
