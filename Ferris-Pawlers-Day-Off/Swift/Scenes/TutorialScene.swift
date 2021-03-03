@@ -41,7 +41,6 @@ class TutorialScene: SKScene
     {
         let myScene = GameScene(size: size)
         myScene.scaleMode = scaleMode
-        //let reveal = SKTransition.fade(withDuration: 1.5)
         view?.presentScene(myScene)
     }
     
